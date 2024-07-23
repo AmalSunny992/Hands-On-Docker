@@ -1,5 +1,12 @@
 # Hands-On-Docker-Weather App
 
+To create a Docker image for the weather app, we'll follow these steps:
+
+- Dockerize the Weather App: Create a Dockerfile that includes instructions to build the weather app and run it on Tomcat.
+- Build the Docker Image: Build the Docker image locally.
+- Push the Docker Image to Docker Hub: Push the built image to Docker Hub.
+- Run the Docker Container: Ensure the container runs the weather app on Tomcat using port 8080.
+
 ## Build the Docker Image
 
 ```sh
