@@ -30,10 +30,13 @@ This will start the Weather App on Tomcat server accessible at http://localhost:
 
 *Replace `your-dockerhub-username` with your actual Docker Hub username and `your-github-account` with your actual GitHub account name.*
 
-### Summary
+## Summary
 
 By following these steps, you will have created a Docker image for the weather app, pushed it to Docker Hub, and ensured it can run using Docker. 
 This allows for easy future deployments and consistent environments.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 
 
