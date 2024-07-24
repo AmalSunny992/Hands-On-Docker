@@ -38,6 +38,9 @@ docker run -d -p 8080:8080 your-dockerhub-username/weather-app:latest
 ```
 ![image](https://github.com/user-attachments/assets/b44d6d54-6456-4241-95cb-7d97074c8626)
 
+![image](https://github.com/user-attachments/assets/bd8f6517-2d8d-4efb-a2dc-76d6ba81445a)
+
+
 This will start the Weather App on Tomcat server accessible at http://localhost:8080/weather-app.
 
 ![image](https://github.com/user-attachments/assets/8491850b-37f0-4748-8b4e-0cb8e5784f37)
