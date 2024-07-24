@@ -13,7 +13,7 @@ To create a Docker image for the weather app, we'll follow these steps:
 docker build -t your-dockerhub-username/weather-app:latest
 ```
 ![image](https://github.com/user-attachments/assets/ddacf33a-3d31-4c21-abb6-5f0e02fdae4b)
-![image](https://github.com/user-attachments/assets/24ef609f-8eab-4c46-8890-9fa9a1036524)
+![image](https://github.com/user-attachments/assets/5503f29b-f283-4db6-91f6-99bdb9babbf8)
 
 ## Push the Docker Image to Docker Hub
 
@@ -36,10 +36,13 @@ docker push your-dockerhub-username/weather-app:latest
 ```sh
 docker run -d -p 8080:8080 your-dockerhub-username/weather-app:latest
 ```
-![image](https://github.com/user-attachments/assets/00bace82-a6f5-4e80-80c9-42cde49db869)
-
+![image](https://github.com/user-attachments/assets/b44d6d54-6456-4241-95cb-7d97074c8626)
 
 This will start the Weather App on Tomcat server accessible at http://localhost:8080/weather-app.
+
+![image](https://github.com/user-attachments/assets/8491850b-37f0-4748-8b4e-0cb8e5784f37)
+
+![image](https://github.com/user-attachments/assets/bfc9917c-a267-4953-b492-8061636d5847)
 
 
 *Replace `your-dockerhub-username` with your actual Docker Hub username and `your-github-account` with your actual GitHub account name.*
